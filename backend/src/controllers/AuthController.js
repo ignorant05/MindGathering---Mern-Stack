@@ -1,4 +1,3 @@
-import multer from "multer";
 import RefreshTokenModel from "../models/RefreshTokenModel.js";
 import UserModel from "../models/UserModel.js";
 import TokensUtils from "../utils/TokensUtils.js";

@@ -3,10 +3,10 @@ import mongoose from "mongoose";
 const imageSchema = mongoose.Schema(
   {
     name: {
-      type: string,
+      type: String,
     },
     type: {
-      type: string,
+      type: String,
     },
     data: Buffer,
     user: {
@@ -17,4 +17,4 @@ const imageSchema = mongoose.Schema(
   { timestamp: true },
 );
 
-export default mongoose.Model("profile_pictures", imageSchema);
+export default mongoose.model("profile_pictures", imageSchema);

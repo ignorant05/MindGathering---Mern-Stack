@@ -1,6 +1,5 @@
-import CommentModel from "../models/CommentModel.js";
 import BlogModel from "../models/BlogModel.js";
-import UserModel from "../models/UserModel.js";
+import CommentModel from "../models/CommentModel.js";
 
 const commentController = {
   newComment: async (req, res) => {
