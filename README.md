@@ -136,7 +136,7 @@ The web app is simply an imitation for blog post web app.
 
 ```bash
 # Clone the project or download the it's zip file
-$ git clone 
+$ git clone https://github.com/ignorant05/MindGathering---Mern-Stack.git
 ```
 
 > *Note:* docker and docker compose are required here otherwise you need to install all the dependencies for both backend and frontend, so make sure docker is installed, enabled and started. 
